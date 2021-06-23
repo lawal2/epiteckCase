@@ -13,7 +13,7 @@ This software suite will be broken into three parts
 
 ## how to start: 
 
- ### update dependencies need php@8 ,php-pgsql
+ ### <ol>update dependencies need php@8 ,php-pgsql</ol>
  
  composer update && composer install 
  
