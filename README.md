@@ -6,9 +6,9 @@ This software suite will be broken into three parts
 
 <li>An application server to implement all the features listed below(seeFeatures)</li>
 
-A web client to use the application from your browser by querying the application server 
+<li>A web client to use the application from your browser by querying the application server </li>
 
-A mobile client to use the application from your phone by querying the application server
+<li>A mobile client to use the application from your phone by querying the application server </li>
 
 
 ## how to start: 
