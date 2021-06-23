@@ -17,14 +17,14 @@ This software suite will be broken into three parts
  
  composer update && composer install 
  
- ### update webpack
+ ### <ol>update webpack </ol>
  
   yarn/npm install
   
-  ### set up a database (need docker to be installed)
+  ### <ol>set up a database (need docker to be installed)</ol>
   
   docker-compose up -d
   
-  ### migrate schema
+  ### <ol>migrate schema</ol>
   
   symfony or php bin/console doctrine:migrations:migrate
