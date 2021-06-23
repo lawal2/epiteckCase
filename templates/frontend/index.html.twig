@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Action REAction Platform{% endblock %}
+{% block navbar %}{% endblock %}
+{% block body %}
+<div class="app-landing">
+    <h1>Action REAction</h1><hr />
+        <h5>Automation platform of his digital life</h5><br />
+        <img src="/images/epitechlogo.png" />
+    </div>
+    <div class="app-landing-buttons">
+        <a href="{{ path('connect_facebook_start') }}">
+        <button class="login-fb"></button></a>
+        <hr />
+        <a href="{{ path('app_login') }}">
+        <button type="button" class="btn btn-lg btn-outline-secondary">Sign In</button></a>
+        <a href="{{ path('app_register') }}">
+        <button type="button" class="btn btn-lg btn-outline-primary">Sign Up</button></a>
+    </div>
+</div>
+
+
+{% endblock %}

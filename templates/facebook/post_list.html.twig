@@ -1,0 +1,23 @@
+{% extends "frontend/dashboard.html.twig" %}
+
+{% block content %}
+{% for post in posts %}
+{% if post.message is defined %} 
+    <div class="row">
+        <div class="col-xs-6">        
+        <small>{{ post.created_time|date }}</small>
+        </div>
+        {# <div class="col-xs-6">
+        <small>Post Id: {{ post.id }}</small>
+        </div> #}
+    </div>
+    {# {% if post.message is defined %}    #}
+    <div class="row">
+        <div class="col-xs-12">
+            {{ post.message }}
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}

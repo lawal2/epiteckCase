@@ -1,0 +1,31 @@
+{% extends "base.html.twig" %}
+{% block body %}
+<div class="row">
+    <div class="col-xs-12 col-lg-6">
+    {% block content %}
+
+Ut odit nisi fugit quia praesentium voluptate. Molestiae quis sunt nulla ea beatae voluptas tempore. Provident consequatur laudantium explicabo consectetur voluptates iste. Aliquid et dolores aut laborum eius. Ut dolorem corrupti in. Quia aperiam deserunt natus amet nisi sint.
+
+Beatae aspernatur sit mollitia repellat illum et. Et optio quibusdam dignissimos et non eos. Adipisci libero delectus nostrum ratione earum cupiditate. Accusamus veniam quam id sequi perspiciatis. At repudiandae consectetur aut et possimus.
+
+Facilis itaque sit enim quibusdam. Velit rerum eveniet qui cum. Dolor quas aut et dolore doloribus et. Aut quae distinctio aut eligendi placeat eos dicta aperiam. Velit ut veniam impedit odio sit.
+
+Suscipit totam maiores id et omnis nihil id. Eos molestias laborum sunt quis modi et perferendis. Quam numquam et ipsum quae consequatur nesciunt. Accusantium nobis veniam laborum omnis dolor odio. Dicta vitae et expedita enim aut. Repellendus repellendus repellendus enim consectetur ea quod a.
+
+Fugit assumenda temporibus quo. Sunt assumenda sapiente odit sint voluptatibus beatae possimus maxime. Quae aut qui ratione ut et magni.
+{% endblock %}
+    </div>
+    <div class="col-xs-8 col-lg-4">
+    <p>Welcome to Action REAction platform!</p>
+    <p>Add providers and services to begin with.</p>
+    <p>Your current list of authorizations: </p>
+    todo: event listener for user selected services/providers<hr />
+    <a href="{{ path('facebook_post_list') }}" class="btn btn-lg btn-outline-success">Show facebook posts</a>
+    </div>
+    <div class="col-xs-4 col-lg-2">
+    <p>Logged in as:</p>
+    <p>todo: make event listener for whole dashboard or invent something else</p>
+    {{ user.username }}
+    </div>
+</div>
+{% endblock %}
